@@ -1,0 +1,13 @@
+<!--pages/messageTag/messageTag.wxml-->
+<view class="content">
+  <view class="left">
+    <view class="image">
+      <image mode="widthFix" style="width:120rpx" src="{{headImageSrc}}"></image>
+    </view>
+    <view>{{userName}}</view>
+    <view>{{userOperation}}</view>
+    <view>{{time}}</view>
+
+  </view>
+  <image mode="widthFix" class='messageImage' src="{{messageImageSrc}}"></image>
+</view>

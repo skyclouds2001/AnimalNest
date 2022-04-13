@@ -1,0 +1,11 @@
+<!--pages/kuang/kuang.wxml-->
+<view class="content">
+  <view class="left">
+    <view class="image">
+      <image mode="widthFix" style="width:120rpx" src="{{catImageSrc}}"></image>
+    </view>
+    <text>{{catName}}</text>
+    <text>{{address}}</text>
+  </view>
+  <navigator class="right" url="../page3/page3">找我玩</navigator>
+</view>

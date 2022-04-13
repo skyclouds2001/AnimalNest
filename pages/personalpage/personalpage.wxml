@@ -1,0 +1,22 @@
+<!--pages/personalpage/personalpage.wxml-->
+<view class="topbar">
+  <!-- <navigator url="#" class="box">1</navigator> -->
+  <view class="box_h">{{title}}</view>
+</view>
+<view class="user">
+  <navigator class="headphoto"></navigator>
+  <view class="user_info">
+    <view class="user_name">jiajia</view>
+    <view class="user_workcount">leijifabuwutiao</view>
+  </view> 
+</view>
+
+<view class="moment">
+  <moment userName="hello"></moment>
+  <moment></moment>
+  <moment></moment>
+  <moment></moment>
+  <moment></moment>
+  <moment></moment>
+  <moment></moment>
+</view>

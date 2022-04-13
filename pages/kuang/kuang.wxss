@@ -1,0 +1,44 @@
+/* pages/kuang/kuang.wxss */
+.content{
+  height: 120rpx;
+  padding: 40rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  box-shadow: 0rpx 0rpx 10rpx rgba(0,0,0,0.4);
+}
+.left{
+  float: left;
+  background-color: #fff;
+  width: 300rpx;
+  height: 120rpx;
+}
+.left .image{
+  float: left;
+  /* background-color: rgb(81, 247, 66); */
+  width: 120rpx;
+  border-radius: 10rpx;
+}
+.left text{
+  display: inline-block;
+  line-height: 60rpx;
+  padding-left: 20rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+  color: rgba(68,68,68);
+  font-family: Microsoft Yahei;
+}
+.left text:nth-child(3){
+  font-size: 25rpx;
+}
+.right{
+  float: right;
+  background-color: rgba(136,230,46,100);
+  width: 150rpx;
+  height: 75rpx;
+  border-radius: 5rpx;
+  margin-top: 30rpx;
+  text-align: center;
+  line-height: 75rpx;
+  font-weight: 700;
+  color: white;
+}

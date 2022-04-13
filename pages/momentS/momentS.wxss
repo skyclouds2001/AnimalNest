@@ -1,0 +1,42 @@
+/* pages/momentS/momentS.wxss */
+.cardSwitch {
+  height: 970rpx;
+
+}
+.card {
+  /* width: 500rpx; */
+  /* height: 950rpx; */
+  width: 93%;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 4rpx 8rpx 0 rgba(0, 0, 0, 0.2), 0 6rpx 20rpx 0 rgba(0, 0, 0, 0.19);
+}
+.imageSize {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.catPicture {
+  width:600rpx;
+}
+.catInformation {
+  margin-left: 72rpx;
+  text-align: left;
+}
+.catName {
+  font-family: PingFangSC-bold;
+  font-weight: bold;
+  font-size: 60rpx;
+}
+.column {
+  display: flex;
+  flex-direction:column;
+}
+.row {
+  display: flex;
+  flex-direction:row;
+}
+.tag {
+  color: rgba(16, 16, 16, 59);
+  font-size: smaller;
+}

@@ -1,0 +1,15 @@
+/* pages/ramble/ramble.wxss */
+.moment{
+  width: 100%;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  padding-top: 180rpx;
+}
+
+.footer{
+  padding-top: 50rpx;
+  padding-bottom: 50rpx;
+  text-align: center;
+  color: rgb(180, 180, 180);
+  font-size: 25rpx;
+}

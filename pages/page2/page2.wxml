@@ -1,0 +1,23 @@
+<!--pages/page2/page2.wxml-->
+<view class="topbar">
+  <!-- <navigator url="#" class="box">1</navigator> -->
+  <view class="box_h">{{title}}</view>
+</view>
+<view class="user">
+  <navigator class="headphoto"></navigator>
+  <view class="user_info">
+    <view class="user_name">jiajia</view>
+    <view class="user_workcount">leijifabuwutiao</view>
+  </view> 
+  <button class="login" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登录</button>
+  <block wx:else>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </block>
+  <view style="width:80rpx;"></view>
+</view>
+<view>
+  <view class="card" bindtap="bindViewToPersonalPage">我的发布</view>
+  <view class="card" bindtap="bindViewToMessage">我的互动</view>
+  <view class="card" bindtap="bindViewToKuangkuang">我的关心</view>
+  <view class="card" bindtap="bindViewToQA">我要反馈</view>
+</view>

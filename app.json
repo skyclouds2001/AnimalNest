@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/page1/page1",
+    "pages/page2/page2",
+    "pages/page3/page3",
+    "pages/kuangkuang/kuangkuang",
+    "pages/personalpage/personalpage",
+    "pages/share/share",
+    "pages/message/message",
+    "pages/QA/QA",
+    "pages/ramble/ramble"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "你好",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+    "weui": true
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "image/icon/compass.png",
+        "iconPath": "image/icon/compass.png",
+        "pagePath": "pages/ramble/ramble",
+        "text": "逛逛"
+      },
+      {
+        "selectedIconPath": "image/icon/content.png",
+        "iconPath": "image/icon/content.png",
+        "pagePath": "pages/page1/page1",
+        "text": "图鉴"
+      },
+      {
+        "selectedIconPath": "image/icon/me.png",
+        "iconPath": "image/icon/me.png",
+        "pagePath": "pages/page2/page2",
+        "text": "我的"
+      }
+    ]
+  }
+}

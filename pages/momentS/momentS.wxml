@@ -1,0 +1,44 @@
+<!--pages/momentS/momentS.wxml-->
+<view class="card">
+  <view class="imageSize">
+      <image mode="widthFix" class="catPicture" src="{{catImageSrc}}"></image>
+  </view>
+  <view class="catInformation">
+      <view class="row">
+          <view>
+              <text class="catName">{{catName}}</text>
+          </view>
+          <view style="margin-left: 272rpx;" bindtap="collect" class="collect"><image mode="widthFix" src="{{imageSrc}}" style="width:100rpx"></image></view>
+      </view>
+      <view class="column">
+          <view class="row">
+              <view class="column">
+                  <view class="tag">毛色</view>
+                  <view>{{color}}</view>
+              </view>
+              <view class="column">
+                  <view class="tag" style="margin-left: 172rpx;">性别</view>
+                  <view style="margin-left: 172rpx;">{{sex}}</view>
+              </view>
+          </view>
+          <view class="row">
+              <view class="column">
+                  <view class="tag">身体状况</view>
+                  <view>{{health}}</view>
+              </view>
+              <view class="column">
+                  <view class="tag" style="margin-left: 172rpx;">出没地点</view>
+                  <view style="margin-left: 172rpx;">{{address}}</view>
+              </view>
+          </view>
+          <view class="column">
+              <view class="tag">脾气</view>
+              <view>{{habit}}</view>
+          </view>
+          <view class="column">
+              <view class="tag">爱好</view>
+              <view>{{hobby}}</view>
+          </view>
+      </view>
+  </view>
+</view>

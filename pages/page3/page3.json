@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "moment": "../moment/moment"
+  },
+  "navigationBarTitleText": "动物小窝"
+}

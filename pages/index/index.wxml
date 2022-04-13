@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view>
+    <block>
+      <button bindtap="bindViewToPage1" class="decoration">开始</button>
+    </block>
+  </view>
+  <view class="usermotto" mode="cover">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+<!--pages/page1/page1.wxml-->
+<view class="topbar">图鉴</view>
+<!-- <view class="page__bd">
+    <picker>
+    </picker>
+</view> -->
+<swiper class="cardSwitch" bindchange="changeswiper">
+    <block wx:for="{{background}}" wx:key="number">
+        <swiper-item><momentS class="card" catName="猫咪{{item.number}}号"></momentS></swiper-item>
+    </block>
+</swiper>
+<button plain="true" style="position: sticky;top: 800rpx; width: 70px; height: 70px; margin-left: 230px; background-color: #20E60A; border-radius:50%; font-size: 16px;" bindtap="bindViewToShare">分享</button>
+<view class="footer">—— · TA和小窝主们的日常 · ——</view>
+<view class="moment">
+    <moment></moment>
+    <moment></moment>
+    <moment></moment>
+    <moment></moment>
+    <moment></moment>
+</view>
+<view class="footer">—— · 没有更多日常啦，快发布你们的日常吧 · ——</view>

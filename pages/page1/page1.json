@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "mp-searchbar": "weui-miniprogram/searchbar/searchbar",
+    "moment": "../moment/moment",
+    "momentS": "../momentS/momentS"
+  },
+  "navigationBarTitleText": "UI组件库"
+}

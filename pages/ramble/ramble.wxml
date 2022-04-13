@@ -1,0 +1,10 @@
+<!--pages/ramble/ramble.wxml-->
+<image plain="true" style="position: fixed; height: 200rpx; background-color: #20E60A; " src="../../image/QA/QA.png" mode="scaleToFill"></image>
+<view class="moment">
+    <moment></moment>
+    <moment></moment>
+    <moment></moment>
+    <moment></moment>
+    <moment></moment>
+</view>
+<view class="footer">—— · 没有更多日常啦，快发布你们的日常吧 · ——</view>

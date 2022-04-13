@@ -1,0 +1,46 @@
+/* pages/messageTag/messageTag.wxss */
+.content{
+  height: 120rpx;
+  padding: 40rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  box-shadow: 0rpx 0rpx 10rpx rgba(0,0,0,0.4);
+}
+.left{
+  float: left;
+  background-color: #fff;
+  width: 400rpx;
+  height: 120rpx;
+}
+.left .image{
+  float: left;
+  /* background-color: rgb(81, 247, 66); */
+  width: 120rpx;
+  border-radius: 10rpx;
+}
+.left view{
+  /* display: inline-block; */
+  padding:5rpx 0;
+  padding-left: 40rpx;
+  font-size: 25rpx;
+  font-weight: 600;
+  color: rgba(68,68,68);
+  font-family: Microsoft Yahei;
+}
+.left view:nth-child(2) {
+  font-weight: 1000;
+}
+.left view:nth-child(4){
+  /* display: inline-block; */
+  /* line-height: 5rpx; */
+  padding-left: 40rpx;
+  font-size: 20rpx;
+  font-weight: 20;
+  color: rgba(68,68,68);
+  font-family: Microsoft Yahei;
+}
+.messageImage {
+  border-radius: 10px;
+  width: 200rpx;
+  margin-left: 50rpx;
+}

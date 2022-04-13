@@ -1,0 +1,4 @@
+<!--pages/message/message.wxml-->
+<!-- <text>pages/message/message.wxml</text> -->
+<message></message>
+<message userName="test" time="04-02 22: 00"></message>

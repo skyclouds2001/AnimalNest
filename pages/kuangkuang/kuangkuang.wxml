@@ -1,0 +1,15 @@
+<!--pages/kuangkuang.wxml-->
+
+<view>
+  <!-- <view class="left">
+    <view class="image">
+      <image url="{{item.animalPicture}}"></image>
+    </view>
+    <text>{{item.idtoanimal}}</text>
+    <text>{{item.animalPosition}}</text>
+  </view>
+  <navigator class="right" url="#">找我玩</navigator> -->
+  <kuang></kuang>
+  <kuang></kuang>
+</view>
+<view class="footer">—— · 点击图鉴页的星星关注更多动物 · ——</view>

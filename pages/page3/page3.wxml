@@ -1,0 +1,17 @@
+<!--pages/moment.wxml-->
+<view class="mom_content">
+  <view class="headphoto_2">
+    <image mode="widthFix" style="width:140rpx;" src="{{avatarSrc}}"></image>
+    <text>{{userName}}</text>
+    <view class="dele_date">
+      <view>删除</view>
+      <view>{{date}}</view>
+    </view>
+  </view>
+  <view class="content">
+    <view>{{text}}</view>
+    <image mode="widthFix" style="width:550rpx;" src="{{imageSrc}}"></image>
+  </view>
+  <navigator class="links">pinglun</navigator>
+  <navigator class="links">dianzan</navigator>
+</view>

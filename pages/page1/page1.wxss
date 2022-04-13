@@ -1,0 +1,65 @@
+/* pages/page1/page1.wxss */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80rpx;
+  background-color: rgba(136, 230, 46, 100);
+  color: rgba(255, 255, 255, 100);
+  font-size: 40rpx;
+  font-family: Microsoft Yahei;
+}
+.cardSwitch {
+  height: 970rpx;
+
+}
+.card {
+  /* width: 500rpx; */
+  /* height: 950rpx; */
+  width: 93%;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 4rpx 8rpx 0 rgba(0, 0, 0, 0.2), 0 6rpx 20rpx 0 rgba(0, 0, 0, 0.19);
+}
+.imageSize {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.catPicture {
+  width:600rpx;
+}
+.catInformation {
+  margin-left: 72rpx;
+  text-align: left;
+}
+.catName {
+  font-family: PingFangSC-bold;
+  font-weight: bold;
+  font-size: 60rpx;
+}
+.column {
+  display: flex;
+  flex-direction:column;
+}
+.row {
+  display: flex;
+  flex-direction:row;
+}
+.tag {
+  color: rgba(16, 16, 16, 59);
+  font-size: smaller;
+}
+.moment{
+  width: 100%;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.footer{
+  padding-top: 50rpx;
+  padding-bottom: 50rpx;
+  text-align: center;
+  color: rgb(180, 180, 180);
+  font-size: 25rpx;
+}

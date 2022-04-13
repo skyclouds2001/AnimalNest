@@ -1,0 +1,27 @@
+<!--pages/share/share.wxml-->
+<view class="topbar">图鉴</view>
+<view class="user">
+  <navigator class="headphoto"></navigator>
+  <view class="user_info">
+    <view class="user_name">jiajia</view>
+    <view class="user_workcount">leijifabuwutiao</view>
+  </view>
+</view>
+<textarea name="hello" id="0" cols="30" rows="10" placeholder="hello world" placeholder-style="color: gray" confirm-type="done"></textarea>
+
+<view class="wrap">
+<view class="img-wrap">
+  <view class="txt">上传图片</view>
+  <view class="imglist">
+    <view class="item" wx:for="{{imgs}}" wx:key="item">
+      <image src="{{item}}" alt=""></image>
+      <view class='delete' bindtap='deleteImg' data-index="{{index}}">
+        <image src="../../../images/icon.png"></image>
+      </view>
+    </view>
+    <view class="last-item" wx:if="{{imgs.length >= 3 ? false : true}}" bindtap="bindUpload">
+      <text class="sign">+</text>
+    </view>
+  </view>
+</view>
+</view>
