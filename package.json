@@ -1,7 +1,7 @@
 {
-  "name": "wxprograms",
+  "name": "animal-nest",
   "version": "1.0.0",
-  "description": "",
+  "description": "AniamlNest",
   "main": "app.js",
   "dependencies": {
     "@miniprogram-component-plus/sticky": "^1.0.1"
